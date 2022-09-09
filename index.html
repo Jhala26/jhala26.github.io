@@ -5,8 +5,179 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+
+        #navbar{
+            border: 1px solid black;
+            background-color: rgb(64, 64, 102);
+        }
+        #navbar > h2{
+            color: white;
+        }
+        #portfo{
+            border: 1px solid black;
+            height: 300px;
+            margin-top: 10px;
+            background-color: cadetblue;
+            font-size: 20px;
+            color: white;
+        }
+        #about{
+
+            display: flex;
+            
+            border: 1px solid black;
+            height: 300px;
+            margin-top: 10px;
+            background-color: cadetblue;
+            font-size: 20px;
+            color: white;
+            gap: 20px;
+        }
+        .m1{
+
+            border: 1px solid black;
+            height: 280px;
+            width: 700px;
+            margin-top: 10px;
+            background-color: rgb(28, 77, 79);
+            font-size: 20px;
+            color: white;
+
+        }
+        .m2{
+
+            border: 1px solid black;
+            height: 280px;
+            width: 700px;
+
+            margin-top: 10px;
+            background-color: rgb(28, 77, 79);
+            font-size: 20px;
+            color: white;
+            
+
+}
+
+    #proj{
+
+        display: flex;
+            
+            border: 1px solid black;
+            height: 300px;
+            margin-top: 10px;
+            background-color: cadetblue;
+            font-size: 20px;
+            color: white;
+            gap: 20px;
+
+    }
+
+    .a1 {
+
+            border: 1px solid black;
+            height: 280px;
+            width: 700px;
+            margin-top: 10px;
+            background-color: rgb(28, 77, 79);
+            font-size: 20px;
+            color: white;
+
+}
+
+        .a2         {
+
+            border: 1px solid black;
+            height: 280px;
+            width: 700px;
+            margin-top: 10px;
+            background-color: rgb(28, 77, 79);
+            font-size: 20px;
+            color: white;
+
+    }
+
+    #skl{
+
+        display: flex;
+            
+            border: 1px solid black;
+            height: 300px;
+            margin-top: 10px;
+            background-color: rgba(131, 95, 160, 0.418);
+            font-size: 20px;
+            color: white;
+            gap: 20px;
+
+    }
+    #con{
+
+        border: 1px solid black;
+            background-color: rgb(64, 64, 102);
+            font-size: 20px;
+            color: white;
+            height: 100px;
+            margin-top: 20px;
+
+    }
+
+    @media all and (min-width: 700px) and (max-width: 1100px){
+
+        #about{
+            background-color: aqua;
+           
+        }
+        #proj{
+            background-color: cadetblue;
+        }
+
+    }
+    @media all and (min-width: 300px) and (max-width: 700px){
+
+        #about{
+                background-color: rgb(0, 255, 30);
+                display: grid;
+            grid-template-rows: repeat(1fr,auto);
+            height: 100%;
+            width: 100%;
+           
+        }
+        .m1{
+            width: 550px;
+        }
+        .m2{
+            width: 550px;
+        }
+        #proj{
+            background-color: rgb(203, 206, 66);
+        }
+
+}
+
+
+
+
+    </style>
+
 </head>
 <body>
-    <h1>Hello World</h1>
+   <div id="navbar">
+    <h2>Anshul Sharma</h2>
+   </div>
+   <div id="portfo">
+    education
+   </div>
+   <div id="about">
+    <div class="m1">about</div>
+    <div class="m2">images</div>
+   </div>
+   <div id="proj">
+    <div class="a1" >project detail</div>
+    <div class="a2">deploy link</div>
+   </div>
+   <div id="skl">Skill</div>
+   <div id="con">contact</div>
+
 </body>
 </html>
