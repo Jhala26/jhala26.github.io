@@ -562,6 +562,42 @@ width: 95%;
   /*=======Our clients=======*/
 
   /*=======Contact section=======*/
+  .contact .container .content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .contact-left h2{
+    font-size: 2.1em;
+    font-weight: 800;
+    margin-bottom: 40px;
+  }
+  
+  .contact-list li{
+    margin-bottom: 40px;
+  }
+  
+  .contact-list li h3{
+    font-size:1.3em ;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .contact-list li h3 i{
+    color: var(--third-color);
+    font-size: 1.3em;
+    margin-right: 10px;
+  }
+  
+  .contact-list li span{
+  color: var(--third-color);
+  margin-left: 40px;
+  }
+  
+  .contact-list li span a{
+    color: var(--third-color);
+  }
 
   /*=======Footer=======*/
 }
