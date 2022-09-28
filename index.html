@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
   </head>
   <body>
 
@@ -242,6 +247,20 @@
      </section>
     <!--=======Services section=======-->
 
+    <section class="skills section" id="skills">
+      <div class="container flex-center">
+      <h1 class="section-title-01">GitHub</h1>
+        <h2 class="section-title-02">Stats</h2>
+        </div>
+
+        <div class="calendar" >
+          <!-- Loading stuff -->
+          Loading the data just for you.
+          </div>
+      </section>
+
+
+
     <!--=======Portfolio section=======-->
     <section class="portfolio section" id="portfolio">
       <div class="our-client sub-section"> 
@@ -265,7 +284,7 @@
                     <p></p>
                     
                     <h5><span class="hei">Features</span></h5>
-                    <span>- Create, execute + track your social media in ONE place.</span>
+                    <span>- Create, execute track your social media in ONE place.</span>
                     <span>- Set your social media on autopilot.</span>
                     <span>- Eliminate guesswork when it comes to scheduling your
                       social AND increase social engagement</span>
@@ -300,7 +319,7 @@
                     <p></p>
                     
                     <h5><span class="hei">Features</span></h5>
-                    <span>- Complete commerce store.</span>
+                    <span>- Complete E-commerce store.</span>
                     <span>- Different sorting and filtering algorithm.</span>
                     <span>- Responsible for navbar and Product pages.</span>
                     <span>- Product shorting and filtering.</span>
@@ -421,3 +440,25 @@
     <script src="js/main.js"></script>
   </body>
 </html>
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+<script>
+  GitHubCalendar(".calendar", "Jhala26");
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "Jhala26", { responsive: true });
+</script>
+
+<!-- <script>
+  GitHubCalendar(".calendar", "Jhala26");
+
+  // or enable responsive functionality:
+  GitHubCalendar(".calendar", "Jhala26", { responsive: true });
+
+  // Use a proxy
+  GitHubCalendar(".calendar", "Jhala26", {
+     proxy (Jhala26) {
+       return fetch(`https://your-proxy.com/github?user=${Jhala26}`)
+     }
+  }).then(r => r.text())
+</script> -->
