@@ -1042,10 +1042,15 @@ footer a{
 
 
   .client-img{
-    width: 400px;
+    width: 300px;
     height: 300px;
     overflow: hidden;
     border-radius: 10px;
+  }
+  .measure{
+
+    width: 80%;
+
   }
 
 
