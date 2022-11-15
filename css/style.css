@@ -172,6 +172,7 @@ header.sticky .nav-bar{
   margin-right: auto;
   padding: 4rem 2rem;
   flex-direction: column;
+  
 }
 
 .home .home-container{
@@ -642,14 +643,14 @@ width: 95%;
   content: '';
 }
 
-.swiper-button-next, .swiper-button-prev{
+/* .swiper-button-next, .swiper-button-prev{
   color: var(--second-color);
   font-size: 3em;
-}
+} */
 
-.swiper-pagination-bullet, .swiper-pagination-bullet-active{
+/* .swiper-pagination-bullet, .swiper-pagination-bullet-active{
   background: var(--second-color);
-}
+} */
 
 
 
@@ -659,6 +660,8 @@ width: 95%;
   justify-content: center;
   align-items: center;
 }
+
+
 
 /*=======Get-in-touct=======*/
 

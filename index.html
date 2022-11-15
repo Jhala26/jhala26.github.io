@@ -35,7 +35,7 @@
     <!-- <a href="#My-project">Services</a> -->
     <a href="#portfolio">Projects</a>
     <a href="#contact">Contact</a>
-    <a href="images/Anshul Sharma.pdf" download="Resume" > Resume <i class="fas fa-download"></i></a>
+    <a href="images/Anshul_Sharma_Resume.pdf" download="Anshul_Sharma_Resume" onclick=" window.open('https://drive.google.com/file/d/13SOaI63I23Mh8OK6OBASMQry5hw89JV3/view?usp=sharing','_blank')"> Resume <i class="fas fa-download"></i></a>
   </div>
 </div>
 <div class="nav-menu-btn"></div>
@@ -101,7 +101,7 @@
         </li>
       </ul> -->
     <!-- <a href="" class="btn"> Download CV <i class="fas fa-download"></i></a> -->
-    <a href="images/Anshul Sharma.pdf" download="Resume" class="btn"> Download CV <i class="fas fa-download"></i></a>
+    <a href="images/Anshul_Sharma_Resume.pdf" download="Anshul_Sharma_Resume" class="btn" onclick=" window.open('https://drive.google.com/file/d/13SOaI63I23Mh8OK6OBASMQry5hw89JV3/view?usp=sharing','_blank')"> Download CV <i class="fas fa-download"></i></a>
       </div>
     </div>
   </div>
@@ -146,6 +146,7 @@
                   <div class="info">
                     <span>HTML</span>
                     <span>95%</span>
+                    <img src="images/html.png" alt="">
                   </div>
                   <div class="line html"></div>
                 </li>
@@ -153,6 +154,7 @@
                   <div class="info">
                     <span>CSS</span>
                     <span>85%</span>
+                    <img src="images/css.png" alt="">
                   </div>
                   <div class="line css"></div>
                 </li>
@@ -160,6 +162,7 @@
                   <div class="info">
                     <span>Javascript</span>
                     <span>80%</span>
+                    <img src="images/JS.png" alt="">
                   </div>
                   <div class="line javascript"></div>
                 </li>
@@ -167,16 +170,19 @@
                   <div class="info">
                     <span>Java</span>
                     <span>80%</span>
+                    <img src="images/Java.png" alt="">
                   </div>
                   <div class="line jquary"></div>
                 </li>
                 <li class="bar">
                   <div class="info">
-                    <span>Git</span>
+                    <span>MySQL</span>
                     <span>90%</span>
+                    <img src="images/mysql.png" alt="">
                   </div>
                   <div class="line php"></div>
                 </li>
+                
               </ul>
             </div>
             <div class="education">
@@ -261,6 +267,19 @@
           
       </section>
 
+      <section class="skills section" id="skills">
+        <div class="container flex-center">
+        <h1 class="section-title-01">GitHub</h1>
+          <h2 class="section-title-02">Stats</h2>
+        </div>
+        
+        <div align="center">
+          <img align="center" src="https://github-readme-stats.vercel.app/api?username=Jhala26&count_private=true&show_icons=true&bg_color=FFFFFF&text_color=3b7087&icon_color=3b7087&title_color=3b7087&hide_border=false&layout=compact&hide=python"/>
+           <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jhala26&count_private=true&show_icons=true&bg_color=FFFFFF&text_color=3b7087&icon_color=3b7087&title_color=3b7087&hide_border=false"/>
+        </div>
+            
+      </section>
+
 
 
       <!--======= Service Clients=======-->
@@ -337,16 +356,18 @@
           <h2 class="section-title-02">My Projects</h2>
           <div class="content">
             <div class="swiper client-swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide flex-center">
+              <div >  
+                <!-- class="swiper-wrapper" -->
+                <!-- Project 1 -->
+                <div class="swiper-slide flex-center" style="border:1px solid #3b7087 ; margin-bottom: 60px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; padding: 20px;">
                   <div class="client-img">
                     <!-- <img src="https://bforbloggers.com/wp-content/uploads/2021/04/coschedule-review-2021.png" alt=""> -->
                     <img src="https://bforbloggers.com/wp-content/uploads/2021/04/create-projects-coschedule.gif" alt="">
                   </div>
                   <div style="display: grid;" class="client-details">
-                    <p>CoSchedule is a Service Provider Company and we
-                      made a clone of its online Service Platform</p>
-                    <h3>CoSchedule_Clone</h3> 
+                    <h3>CoSchedule Clone</h3>
+                    <p>CoSchedule is a Service Provider Company with marketing tools and it is a collaborative project</p>
+                     
                     <span>Tech-Stack -  CSS | HTML | JAVASCRIPT</span>
                     <!-- <a href="https://github.com/Jhala26" target="_blank"><img style="width: 50px;" src="images/icons8-github-96.png" alt=""></a>   -->
                     <p></p>
@@ -358,8 +379,8 @@
                       social AND increase social engagement</span>
                     <p></p>
                     <h5 ><span class="hei">Area of Responsibility</span></h5>
-                    <span>- Was responsible for creating Resources section.</span>
-                    <span>- Create three different pages in this section  .</span>
+                    <span>- Created Resources section.</span>
+                    <span>- Designed three different pages in this section.</span>
                     <p></p>
 
                     <div class="pro-icon">
@@ -371,49 +392,91 @@
                     
                   </div>
                 </div>
-
-
-                <div class="swiper-slide flex-center">
-                  <div class="client-img">
-                    <img src="images/logo _ pro2.PNG" alt="">
-                    <!-- <img src="https://bforbloggers.com/wp-content/uploads/2021/04/create-projects-coschedule.gif" alt=""> -->
-                  </div>
-                  <div style="display: grid;" class="client-details">
-                    <p>NordStrom Rack is an E-Commerce Company and we
-                      made a clone of its online Service Platform</p>
-                    <h3>NordStrom Rack</h3> 
-                    <span>Tech-Stack -  CSS | HTML | JAVASCRIPT</span>
-                    <!-- <a href="https://github.com/Jhala26" target="_blank"><img style="width: 50px;" src="images/icons8-github-96.png" alt=""></a>   -->
-                    <p></p>
-                    
-                    <h5><span class="hei">Features</span></h5>
-                    <span>- Complete E-commerce store.</span>
-                    <span>- Different sorting and filtering algorithm.</span>
-                    <span>- Responsible for navbar and Product pages.</span>
-                    <span>- Product shorting and filtering.</span>
-                    <p></p>
-                    <h5 ><span class="hei">Area of Responsibility</span></h5>
-                    <span>- Was responsible for creating Payment Gateway section.</span>
-                    <span>- Create the complete payment process after selecting the product.</span>
-                    <p></p>
-
-                    <div class="pro-icon">
-                      <a href="https://github.com/Jhala26/goofy-mask-1795" target="_blank" ><img src="images/icons8-github-96.png" style="width: 50px;" alt=""></a>
-                    <a href="https://www.nordstromrack.com/" target="_blank" ><img src="images/web.png" style="width: 98px; width: 45px;" alt=""></a>
-
+                  <!-- Base seaction -->
+                  <!-- 2 project -->
+                  <div class="swiper-slide flex-center" style="border:1px solid #3b7087 ; margin-bottom: 60px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; padding: 20px;">
+                    <div class="client-img">
+                      <img src="images/logo _ pro2.PNG" alt="">
+                      <!-- <img src="https://bforbloggers.com/wp-content/uploads/2021/04/create-projects-coschedule.gif" alt=""> -->
                     </div>
-                    
-                    
+                    <div style="display: grid;" class="client-details">
+                      <h3>NordStrom Rack</h3> 
+                      <p>NordStrom Rack is an E-Commerce Company and we
+                        made a clone of its online Service Platform</p>
+                      
+                      <span>Tech-Stack -  CSS | HTML | JAVASCRIPT</span>
+                      <!-- <a href="https://github.com/Jhala26" target="_blank"><img style="width: 50px;" src="images/icons8-github-96.png" alt=""></a>   -->
+                      <p></p>
+                      
+                      <h5><span class="hei">Features</span></h5>
+                      <span>- Complete E-commerce store.</span>
+                      <span>- Different sorting and filtering algorithm.</span>
+                      <span>- Responsible for navbar and Product pages.</span>
+                      <span>- Product shorting and filtering.</span>
+                      <p></p>
+                      <h5 ><span class="hei">Area of Responsibility</span></h5>
+                      <span>- Created Payment Gateway section.</span>
+                      <span>- Created the complete payment process after selecting the product.</span>
+                      <p></p>
+    
+                      <div class="pro-icon">
+                        <a href="https://github.com/Jhala26/goofy-mask-1795" target="_blank" ><img src="images/icons8-github-96.png" style="width: 50px;" alt=""></a>
+                      <a href="https://www.nordstromrack.com/" target="_blank" ><img src="images/web.png" style="width: 98px; width: 45px;" alt=""></a>
+    
+                      </div>
+                      
+                      
+                    </div>
                   </div>
-                </div>
+
+                  <!-- 3 project -->
+
+                  <div class="swiper-slide flex-center" style="border:1px solid #3b7087 ; margin-bottom: 60px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; padding: 20px;">
+                    <div class="client-img">
+                      <img src="images/project-2.PNG" alt="">
+                      <!-- <img src="https://bforbloggers.com/wp-content/uploads/2021/04/create-projects-coschedule.gif" alt=""> -->
+                    </div>
+                    <div style="display: grid;" class="client-details">
+                      <h3>Bus Reservation System Portal</h3> 
+                      <p>Book Bus tickets online from Bus Reservation System Portal</p>
+                      
+                      <span>Tech-Stack -  Java | MySQL | Spring Boot | Hibernate</span>
+                      <!-- <a href="https://github.com/Jhala26" target="_blank"><img style="width: 50px;" src="images/icons8-github-96.png" alt=""></a>   -->
+                      <p></p>
+                      
+                      <h5><span class="hei">Features</span></h5>
+                      <span>- On-Board Registration.</span>
+                      <span>- Details Modification.</span>
+                      <span>- Easy access through API.</span>
+                      <span>- Manage through date.</span>
+                      <p></p>
+                      <h5 ><span class="hei">Area of Responsibility</span></h5>
+                      <span>- Created Reservation Module.</span>
+                      <span>- Created six APIs.</span>
+                      <p></p>
+    
+                      <div class="pro-icon">
+                        <a href="https://github.com/mayurisamanta/bright-thrill-6240" target="_blank" ><img src="images/icons8-github-96.png" style="width: 50px;" alt=""></a>
+                      <a href="https://drive.google.com/file/d/1eu_JPvZc-PnnxWnBEooVHvbo2xRkYRrv/view?usp=sharing" target="_blank" ><img src="images/video logo.jpg" style="width: 98px; width: 45px;" alt=""></a>
+    
+                      </div>
+                      
+                      
+                    </div>
+                  </div>
+
+
 
               </div>
-              <div class="swiper-button-next">
+              <!-- new try -->
+
+
+              <!-- <div class="swiper-button-next">
                 <i class="fas fa-chevron-right"></i>
               </div>
               <div class="swiper-button-prev">
                 <i class="fas fa-chevron-left"></i>
-              </div>
+              </div> -->
               <div class="swiper-pagination"></div>
             </div>
           </div>
